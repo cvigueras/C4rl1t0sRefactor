@@ -7,11 +7,11 @@ using Task = System.Threading.Tasks.Task;
 namespace C4rl1t0sRefactor
 {
     /// <summary>
-    /// VSPackage that registers the "C4rl1t0sRefactor" command and its Ctrl+Shift+R binding.
+    /// VSPackage that registers the C4rl1t0sRefactor command and its Ctrl+Shift+R binding.
     /// The package is loaded on demand the first time the command is invoked.
     /// </summary>
     [PackageRegistration(UseManagedResourcesOnly = true, AllowsBackgroundLoading = true)]
-    [InstalledProductRegistration("C4rl1t0sRefactor", "ReSharper-style 'Refactor This' pop-up on Ctrl+Shift+R.", "1.0.1")]
+    [InstalledProductRegistration("C4rl1t0sRefactor", "Keyboard-shortcut menu of common refactorings on Ctrl+Shift+R.", "1.0.1")]
     [ProvideMenuResource("Menus.ctmenu", 1)]
     [Guid(PackageGuidString)]
     public sealed class C4rl1t0sRefactorPackage : AsyncPackage

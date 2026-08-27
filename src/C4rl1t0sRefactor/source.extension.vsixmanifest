@@ -3,8 +3,8 @@
   <Metadata>
     <Identity Id="C4rl1t0sRefactor.b7e5f0c2-3a4d-4e6f-9a1b-2c3d4e5f6a7b" Version="1.0.1" Language="en-US" Publisher="Carlos Vigueras" />
     <DisplayName>C4rl1t0sRefactor</DisplayName>
-    <Description xml:space="preserve">Menu emergente estilo ReSharper "Refactor This" en Ctrl+Shift+R con los refactors mas habituales de Visual Studio (Rename, Extract Method, Encapsulate Field, Extract Interface, Move Type, y mas).</Description>
-    <Tags>refactoring, resharper, refactor, productivity, ctrl+shift+r</Tags>
+    <Description xml:space="preserve">A keyboard-shortcut menu of the most common Visual Studio refactorings (Rename, Extract Method, Encapsulate Field, Extract Interface, Move Type, and more), opened with Ctrl+Shift+R.</Description>
+    <Tags>refactoring, refactor, keyboard shortcut, productivity, ctrl+shift+r</Tags>
   </Metadata>
   <Installation>
     <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[17.0,18.0)">

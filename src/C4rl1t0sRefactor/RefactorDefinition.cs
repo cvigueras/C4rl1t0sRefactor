@@ -20,9 +20,8 @@ namespace C4rl1t0sRefactor
     }
 
     /// <summary>
-    /// The catalog of refactorings offered by the menu. It mirrors ReSharper's
-    /// "Refactor This" list, mapped onto Visual Studio's built-in commands.
-    /// Edit this list to add, remove or reorder entries.
+    /// The catalog of refactorings offered by the menu, mapped onto Visual Studio's
+    /// built-in commands. Edit this list to add, remove or reorder entries.
     /// </summary>
     internal static class RefactorCatalog
     {
